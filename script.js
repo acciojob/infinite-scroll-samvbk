@@ -8,11 +8,11 @@ function listAdd(count) {
 		cnt++;
 	}
 };
-addItems(10);
+listAdd(10);
 
 window.addEventListener("scroll",()=>{
 	if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight) {
-		addItems(2);
+		listAdd(2);
 	}
 });
 
